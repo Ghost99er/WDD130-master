@@ -1,0 +1,57 @@
+body {background-color: pink;
+
+}
+
+h1 {color: white;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+h1:hover {background-color: pink;
+        color: black;
+}
+
+h2 {color: white;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+h3 {color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.steps {color: black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+
+}
+
+main,footer { max-width: 30%;
+    margin: 0 auto;
+
+}
+
+img { width: 30%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+h4 {color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+footer  { color: black;
+        font-size: 20px;
+        text-align: center;
+
+}
