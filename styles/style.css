@@ -1,3 +1,5 @@
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a{
     text-align: center;
     color: darkblue;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -32,6 +35,10 @@ main section{
 
 body{
     background-color: skyblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -47,12 +54,22 @@ nav a:hover{
     background-color: skyblue;
     color: darkblue;
     text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join{
     background-color: gold;
     color: darkblue;
     text-decoration: none ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -65,16 +82,22 @@ nav a:hover{
     color: darkblue;
 }
 
-.msg{
+.msg {
     background-color: gold;
+    line-height: 1.5em;
+    color: darkblue;
+    padding: 35px;
 }
 
 footer{
     background-color: aquamarine;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title{
     color: darkblue;
+    margin-top: 10px;
 }
 
 h4{
@@ -85,8 +108,8 @@ h4{
     color: darkblue;
 }
 
-.msg{
-    color: darkblue;
+.msg p{
+    padding-bottom: 15px;
 }
 
 footer h3{
@@ -104,10 +127,48 @@ footer a:hover{
     text-decoration: underline;
 }
 
+footer .social img{
+    padding-top: 15px;
+}
+
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
     width: 100%;
+}
+
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+
+h2 {
+    margin: 0;
+}
+
+.logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
