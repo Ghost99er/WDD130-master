@@ -1,5 +1,4 @@
 
-
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -62,7 +61,7 @@ nav a:hover{
 }
 
 .join{
-    background-color: gold;
+    background-color: goldenrod;
     color: darkblue;
     text-decoration: none ;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -83,7 +82,7 @@ nav a:hover{
 }
 
 .msg {
-    background-color: gold;
+    background-color: goldenrod;
     line-height: 1.5em;
     color: darkblue;
     padding: 35px;
@@ -115,6 +114,7 @@ h4{
 footer h3{
     color: darkblue;
     text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 footer a{
