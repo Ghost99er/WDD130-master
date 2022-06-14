@@ -149,6 +149,7 @@ footer .social img{
 
 #hero-img{
     width: 100%;
+    height: auto;
 }
 
 .home-title {
@@ -158,10 +159,6 @@ footer .social img{
 
 h2 {
     margin: 0;
-}
-
-.logo_link {
-    padding-top: 5px;
 }
 
 .rivers-card {
@@ -202,6 +199,7 @@ nav {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+    width: 80px;
 }
              
 #hero {
@@ -233,7 +231,18 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+
+.home-grid { 
+    display: grid; 
+    grid-template-columns: repeat(10, 1fr); 
+} 
      
+.card-img { 
+    width: 100%; 
+    height: auto; 
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
