@@ -319,3 +319,34 @@ nav {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid gold;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical
+  }
+  
+  input[type=submit] {
+    background-color: gold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: darkblue;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: aqua;
+    padding: 20px;
+  }
+  
