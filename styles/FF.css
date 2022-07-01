@@ -200,9 +200,9 @@ nav {
 }
 
 .msgI {
-    background-color: aquamarine;
+    background-color: #403d39;
     line-height: 1.5em;
-    color: darkblue;
+    color: #fffcf2;
     padding: 65px;
     grid-column: 2/9;
     grid-row: 6/7;
