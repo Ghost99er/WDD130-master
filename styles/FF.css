@@ -210,12 +210,9 @@ nav {
     
 }
 
-.mute {
-    height: 50px;
-    width: 50px;
+.audio {
+ margin: 0 auto;
+ display: block;
+ width: 30%;
 }
 
-.mimg {
-    height: 50px;
-    width: 50px;
-}

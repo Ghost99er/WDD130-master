@@ -20,6 +20,30 @@
             <a href="#">Contact Us</a>
         </nav>
     </header>
+    <div class="audio">
+        <audio controls loop>
+            <source src="images/Rich_Brian_In.mp3"
+                    type='audio/mpeg'
+                    codecs="mp3">
+            </audio>
+ 
+            <script type="text/javascript">
+            
+            function muteAudio() {
+            var audio = document.getElementById('audioPlayer');
+            
+            if (audio.mute == false) 
+            {
+            document.getElementById('audioPlayer').muted = true;
+            }
+            else 
+            {
+            audio.mute = true 
+            document.getElementById('audioPlayer').muted = false;
+            }
+            }
+            </script>
+    </div>
     <main>
         <main class="home-grid">
             <section class="LOTR-card">
@@ -53,28 +77,6 @@
                 <img src="images/instagram.png" alt="instagram icon"  width="50" height="50">
             </a>
         </div>
-        <audio controls loop id="audio" >
-            <source src="images/Elevator Music.mp3"
-                    type='audio/mpeg'
-                    codecs="mp3">
-            </audio>
- 
-            <script type="text/javascript">
-            
-            function muteAudio() {
-            var audio = document.getElementById('audioPlayer');
-            
-            if (audio.mute == false) 
-            {
-            document.getElementById('audioPlayer').muted = true;
-            }
-            else 
-            {
-            audio.mute = true 
-            document.getElementById('audioPlayer').muted = false;
-            }
-            }
-            </script>
     </footer>
     </div>
     </body>
