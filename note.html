@@ -1,0 +1,27 @@
+<audio id="audio" >
+    <source src="material/audio/sound.mp3"
+            type='audio/mpeg;
+            codecs="mp3"'/>
+    </audio>
+    
+    <button ID="mute"
+        onclick="muteAudio()">
+    
+    <img src="material/images/mute.png"
+        ID="mute_img"/>
+    
+    <script type="text/javascript">
+    
+    function muteAudio() {
+    var audio = document.getElementById('audioPlayer');
+    
+    if (audio.mute = false) {
+        document.getElementById('audioPlayer').muted = true;
+    }
+    else {
+        audio.mute = true 
+        document.getElementById('audioPlayer').muted = false;
+    
+        }
+    }
+    </script>

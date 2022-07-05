@@ -10,28 +10,28 @@
 <body>
     <div id="content">
     <header>
-        <a id="logo_link" href="/fanstsy-food/index.html">
-            <img class="logo" src="/fanstsy-food/images/knifes-forks.jpg" alt="FFlogo">
+        <a id="logo_link" href="fanstsy-food/index.html">
+            <img class="logo" src="fanstsy-food/images/knifes-forks.jpg" alt="FFlogo">
         </a>
         <nav>
-            <a href="/fanstsy-food/index.html">Home</a>
-            <a href="/fanstsy-food/Equipmentlist.html">Equipment list</a>
-            <a href="/fanstsy-food/Recipes.html">Recipes</a>
+            <a href="fanstsy-food/index.html">Home</a>
+            <a href="fanstsy-food/Equipmentlist.html">Equipment list</a>
+            <a href="fanstsy-food/Recipes.html">Recipes</a>
             <a href="#">Contact Us</a>
         </nav>
     </header>
     <main>
         <main class="home-grid">
             <section class="LOTR-card">
-                <img class="card-img" src="/fanstsy-food/images/LOTR.png" alt="LOTR" width="700" height="500">
+                <img class="card-img" src="fanstsy-food/images/LOTR.png" alt="LOTR" width="700" height="500">
                 <h2>Lord of the rings meal</h2>
             </section>
             <section class="MH-card">
-                <img class="card-img" src="/fanstsy-food/images/Monster Hunter.png" alt="MH" width="700" height="500">
+                <img class="card-img" src="fanstsy-food/images/Monster Hunter.png" alt="MH" width="700" height="500">
                 <h2>Monster hunter Cheifs special</h2>
             </section>
             <div id="background"></div> 
-        <img class="K2" src="/fanstsy-food/images/kitchen2.webp" alt="K2" width="600" height="400">
+        <img class="K2" src="fanstsy-food/images/kitchen2.webp" alt="K2" width="600" height="400">
     <section class="msg">
         <h2>Do you like to eat food? Everyone does!</h2>
         <p>But have you ever wanted to know how to make food that you see in movies, games, tv shows, and more?
@@ -40,7 +40,7 @@
     </main>
 <footer>
         <h3>Fictional Food Universe &copy; 2022 - Daniel Stockton</h3>
-        <h3><a href="/fanstsy-food/site-plan.html">Site Plan</a></h3>
+        <h3><a href="fanstsy-food/site-plan.html">Site Plan</a></h3>
         <h3><a href="#">Contact Us</a></h3>
         <div class="social">
             <a href="https://facebook.com">
@@ -53,6 +53,34 @@
                 <img src="images/instagram.png" alt="instagram icon"  width="50" height="50">
             </a>
         </div>
+        <audio id="audio" >
+            <source src="fanstsy-food/images/Elevator Music.mp3"
+                    type='audio/mpeg;
+                    codecs="mp3"'/>
+            </audio>
+            
+            <button class="mute"
+                onclick="muteAudio()">
+            
+            <img src="fanstsy-food/images/mute.jpg"
+                class="mimg"/>
+            
+            <script type="text/javascript">
+            
+            function muteAudio() {
+            var audio = document.getElementById('audioPlayer');
+            
+            if (audio.mute == false) 
+            {
+            document.getElementById('audioPlayer').muted = true;
+            }
+            else 
+            {
+            audio.mute = true 
+            document.getElementById('audioPlayer').muted = false;
+            }
+            }
+            </script>
     </footer>
     </div>
     </body>
