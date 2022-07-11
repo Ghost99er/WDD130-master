@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&display=swap');
+:root {
+
+  --primary-color: #252422   ;
+  --secondary-color: #403d39 ;
+  --accent1-color: #ccc5b9;
+  --accent2-color: #fffcf2;
+
+  --heading-font: 'Abril Fatface', cursive;
+  --paragraph-font: 'Bebas Neue', cursive;
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -157,7 +169,7 @@ nav {
 
 .home-grid { 
     display: grid; 
-    grid-template-columns: repeat(9, 1fr); 
+    grid-template-columns: repeat(10, 1fr); 
 } 
      
 .card-img { 
