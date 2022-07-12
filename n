@@ -1,0 +1,7 @@
+<div id="R">
+        <section id="R-msg">
+            <h1 class="home-title">Stay tuned — more recipes coming soon!</h1>
+     </div>
+
+
+     

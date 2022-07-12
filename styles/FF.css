@@ -39,7 +39,7 @@ main section{
 
 body{
     background-color: #ccc5b9;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Bebas Neue', cursive;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -86,7 +86,7 @@ footer{
 footer h3{
     color: #fffcf2;
     text-decoration: underline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Abril Fatface', cursive;
 }
 
 footer a{
@@ -109,7 +109,7 @@ footer .social img{
 }
 
 .home-title {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family:'Abril Fatface', cursive;
     font-size: 2em;
 }
 
