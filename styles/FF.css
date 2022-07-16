@@ -194,7 +194,7 @@ nav {
 
 .home-grid { 
     display: grid; 
-    grid-template-columns: repeat(10, 1fr); 
+    grid-template-columns: repeat(9, 1fr); 
     grid-gap: 50px;
 } 
 
@@ -207,7 +207,7 @@ nav {
 
 .home-grid-E  { 
     display: grid; 
-    grid-template-columns: repeat(10, 1fr); 
+    grid-template-columns: repeat(9, 1fr); 
     grid-gap: 50px;
 } 
 
